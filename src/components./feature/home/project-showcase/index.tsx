@@ -1,4 +1,4 @@
-import { PROJECTS } from "../../../constants";
+import { PROJECTS } from "../../../../constants";
 import Project from "./project";
 
 const ProjectShowcase = () => {
