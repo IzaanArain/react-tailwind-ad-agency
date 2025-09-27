@@ -1,19 +1,19 @@
-import service1 from "../assets/service1.webp";
-import service2 from "../assets/service2.webp";
-import service3 from "../assets/service3.webp";
-import project1 from "../assets/project1.webp";
-import project2 from "../assets/project2.webp";
-import project3 from "../assets/project3.webp";
-import profile1 from "../assets/profile1.webp";
-import profile2 from "../assets/profile2.webp";
-import profile3 from "../assets/profile3.webp";
-import profile4 from "../assets/profile4.webp";
-import profile5 from "../assets/profile5.webp";
-import profile6 from "../assets/profile6.webp";
-import testimonial1 from "../assets/testimonial1.webp";
-import testimonial2 from "../assets/testimonial2.webp";
-import testimonial3 from "../assets/testimonial3.webp";
-import testimonial4 from "../assets/testimonial4.webp";
+import service1 from "/assets/service1.webp";
+import service2 from "/assets/service2.webp";
+import service3 from "/assets/service3.webp";
+import project1 from "/assets/project1.webp";
+import project2 from "/assets/project2.webp";
+import project3 from "/assets/project3.webp";
+import profile1 from "/assets/profile1.webp";
+import profile2 from "/assets/profile2.webp";
+import profile3 from "/assets/profile3.webp";
+import profile4 from "/assets/profile4.webp";
+import profile5 from "/assets/profile5.webp";
+import profile6 from "/assets/profile6.webp";
+import testimonial1 from "/assets/testimonial1.webp";
+import testimonial2 from "/assets/testimonial2.webp";
+import testimonial3 from "/assets/testimonial3.webp";
+import testimonial4 from "/assets/testimonial4.webp";
 
 export const LINKS = [
   { name: "About", id: "about" },
