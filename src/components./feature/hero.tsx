@@ -1,7 +1,7 @@
-import profileImg1 from "../../assets/profile1.jpeg";
-import profileImg2 from "../../assets/profile2.jpeg";
-import profileImg3 from "../../assets/profile3.jpg";
-import heroImg from "../../assets/hero-image.png";
+import profileImg1 from "../../assets/profile1.webp";
+import profileImg2 from "../../assets/profile2.webp";
+import profileImg3 from "../../assets/profile3.webp";
+import heroImg from "../../assets/hero-image_1.webp";
 
 import { IoMdArrowForward } from "react-icons/io";
 
