@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import logo from "../../assets/logo.webp";
+import logo from "/assets/logo.webp";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { LINKS } from "../../constants";
 
