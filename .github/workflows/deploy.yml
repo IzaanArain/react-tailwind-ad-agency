@@ -70,9 +70,9 @@ jobs:
         run: |
           PUBLISH_OUTPUT=$(npx wrangler pages publish dist \
             --project-name="react-tailwind-ad-agency" \
-            --branch="main" --format=json)
-          echo "$PUBLISH_OUTPUT" > publish.json
-          DEPLOY_URL=$(jq -r '.url' publish.json)
+            --branch="main")
+          echo "$PUBLISH_OUTPUT" > publish.txt
+          DEPLOY_URL=$(echo "$PUBLISH_OUTPUT" | grep -o 'https://.*\.pages\.dev')
           echo "deploy-url=$DEPLOY_URL" >> $GITHUB_OUTPUT
 
       - name: Create GitHub deployment
