@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-work-sans: "Work Sans", sans-serif;
+  --primary: #012c23;
+
+  font-family: var(--font-work-sans);
+  background: var(--primary);
+}
+
+@theme {
+  --font-base: var(--font-work-sans), sans-serif;
+  --color-primary:var(--primary);
+}
