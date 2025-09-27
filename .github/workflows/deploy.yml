@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: read
-  deployments: write
+  deployments: write 
 
 jobs:
   build:
@@ -40,10 +40,10 @@ jobs:
         id: build
         run: |
           pnpm run build
-          echo "dist-path=dist" >> $GITHUB_OUTPUT  # Make dist path available for deploy job
+          echo "dist-path=dist" >> $GITHUB_OUTPUT  # Pass dist path to deploy job
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: build
           path: dist
@@ -55,7 +55,7 @@ jobs:
 
     steps:
       - name: Download build artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: build
           path: dist
