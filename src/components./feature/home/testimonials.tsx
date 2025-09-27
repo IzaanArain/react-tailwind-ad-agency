@@ -1,5 +1,5 @@
-import { TESTIMONIALS } from "../../constants";
-import { cn } from "../../utils";
+import { TESTIMONIALS } from "../../../constants";
+import { cn } from "../../../utils";
 
 const Testimonials = () => {
   return (
@@ -26,7 +26,7 @@ const Testimonials = () => {
             </p>
             <div className="mt-6">
               <p className="font-bold">{testimonials.author}</p>
-              <p className="text-sm">{testimonials.title}</p>{" "}
+              <p className="text-sm">{testimonials.title}</p>
             </div>
           </div>
         ))}

@@ -1,6 +1,11 @@
-import { ABOUT } from "../../constants";
+import { ABOUT } from "../../../constants";
+import { motion } from "motion/react";
 
 const About = () => {
+  const imageVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
   return (
     <section
       id="about"
@@ -11,7 +16,12 @@ const About = () => {
       </h2>
       <div className="mb-10 flex items-center justify-center gap-4">
         {ABOUT.profileImages.map((image, index) => (
-          <img
+          <motion.img
+            variants={imageVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: image.delay }}
             key={index}
             src={image.src}
             alt={image.alt}

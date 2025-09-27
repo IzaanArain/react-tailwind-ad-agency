@@ -1,4 +1,4 @@
-import { PACKAGES } from "../../../constants";
+import { PACKAGES } from "../../../../constants";
 import Package from "./package";
 
 const PricingPackages = () => {

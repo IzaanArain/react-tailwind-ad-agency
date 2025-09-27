@@ -1,4 +1,4 @@
-import { TEAM_MEMBERS } from "../../constants";
+import { TEAM_MEMBERS } from "../../../constants";
 
 const Team = () => {
   return (

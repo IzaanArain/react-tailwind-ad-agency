@@ -1,5 +1,5 @@
-import { figuresMockData } from "../../../constants";
-import { capitalizeFirstLetter } from "../../../utils";
+import { figuresMockData } from "../../../../constants";
+import { capitalizeFirstLetter } from "../../../../utils";
 
 interface IProject {
   year: string;
